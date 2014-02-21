@@ -1,0 +1,73 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Demo 3{% endblock title %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <h2>Antena 3</h2>
+            {% if antena3 %}
+                {% for film in antena3 %}
+                    {% include "core/film.html" %}
+                {% endfor %}
+            {% else %}
+                <p>Any</p>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h2>Sexta</h2>
+            {% if sexta %}
+                {% for film in sexta %}
+                    {% include "core/film.html" %}
+                {% endfor %}
+            {% else %}
+                <p>Any</p>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h2>Sexta 3</h2>
+            {% if sexta3 %}
+                {% for film in sexta3 %}
+                    {% include "core/film.html" %}
+                {% endfor %}
+            {% else %}
+                <p>Any</p>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h2>Neox</h2>
+            {% if neox %}
+                {% for film in neox %}
+                    {% include "core/film.html" %}
+                {% endfor %}
+            {% else %}
+                <p>Any</p>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h2>Nova</h2>
+            {% if nova %}
+                {% for film in nova %}
+                    {% include "core/film.html" %}
+                {% endfor %}
+            {% else %}
+                <p>Any</p>
+            {% endif %}
+        </div>
+
+        <div class="col-md-4 text-center">
+            <h2>Nitro</h2>
+            {% if nitro %}
+                {% for film in nitro %}
+                    {% include "core/film.html" %}
+                {% endfor %}
+            {% else %}
+                <p>Any</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock content %}

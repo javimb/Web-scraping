@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Programacion TV</title>
+    </head>
+    <body>
+        <h1>Films</h1>
+        <ul>
+            {% for film in films %}
+                <li>
+                    <h2>{{ film.hour }}: {{ film.title }}</h2>
+                    <h3>Rating: {{ film.rating }}</h3>
+                    <h3>Description: <a href="{{ film.url }}">{{ film.url }}</a></h3>
+                </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

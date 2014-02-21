@@ -1,0 +1,52 @@
+{
+    "films": [
+        {
+            "url": "http://www.imdb.com/title/tt0385013/", 
+            "rating": "6.2", 
+            "hour": "11:20", 
+            "title": "Famoso Y Seductor"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0343996/", 
+            "rating": "6.7", 
+            "hour": "12:55", 
+            "title": "La Ciudad Perdida"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0097478/", 
+            "rating": "5.9", 
+            "hour": "15:30", 
+            "title": "Juntos Pero No Revueltos"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0109287/", 
+            "rating": "5.0", 
+            "hour": "17:10", 
+            "title": "Cheque En Blanco"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0140796/", 
+            "rating": "4.3", 
+            "hour": "18:50", 
+            "title": "Air Bud 2: El Fichaje De La Liga"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0190138/", 
+            "rating": "6.7", 
+            "hour": "20:20", 
+            "title": "Falsas Apariencias"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0385307/", 
+            "rating": "4.9", 
+            "hour": "22:15", 
+            "title": "Miss Agente Especial 2: Armada Y Fabulosa"
+        }, 
+        {
+            "url": "http://www.imdb.com/title/tt0416315/", 
+            "rating": "6.3", 
+            "hour": "00:20", 
+            "title": "Wolf Creek"
+        }
+    ]
+}
